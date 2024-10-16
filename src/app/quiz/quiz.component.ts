@@ -1,26 +1,33 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from "@angular/router";
-import { QuizService } from "../shared/services/quiz.service";
+import { ActivatedRoute, Router } from '@angular/router';
+import { QuizService } from '../shared/services/quiz.service';
+import { AuthService } from '../auth/auth.service';
 
 @Component({
   selector: 'app-quiz',
   templateUrl: './quiz.component.html',
-  styleUrls: ['./quiz.component.scss']
+  styleUrls: ['./quiz.component.scss'],
 })
 export class QuizComponent implements OnInit {
   isQuizFinished = this.quizService.isQuizFinished;
+  selectedCategory = '';
   playerName = '';
 
   constructor(
     private quizService: QuizService,
     private router: Router,
-    private route: ActivatedRoute
-  ) { }
+    private route: ActivatedRoute,
+    private authService: AuthService
+  ) {}
 
   ngOnInit(): void {
-    this.route.params.subscribe(params => {
-      this.quizService.playerName = params['playerName'];
-      this.playerName = params['playerName'];
+    this.authService.isUserConnected();
+    this.playerName = this.authService.user?.username || '';
+    this.route.params.subscribe((params) => {
+      console.log(params['categoryId']);
+
+      this.quizService.selectedCategory = params['categoryId'];
+      this.selectedCategory = params['categoryId'];
     });
   }
 

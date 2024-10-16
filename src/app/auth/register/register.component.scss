@@ -15,4 +15,8 @@
       @apply w-full;
     }
   }
+
+  .error-message {
+    @apply text-red-500 text-sm mt-2;
+  }
 }

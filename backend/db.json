@@ -1,503 +1,1782 @@
 {
   "questions": [
     {
-      "id": 1,
-      "questionLabel": "What is a component in Angular?"
+      "id": "1",
+      "questionLabel": "What is a component in Angular?",
+      "categoryId": "1"
     },
     {
-      "id": 2,
-      "questionLabel": "Explain the purpose of the NgModule in Angular."
+      "id": "2",
+      "questionLabel": "Explain the purpose of the NgModule in Angular.",
+      "categoryId": "1"
     },
     {
-      "id": 3,
-      "questionLabel": "How do you create a new Angular application?"
+      "id": "3",
+      "questionLabel": "How do you create a new Angular application?",
+      "categoryId": "1"
     },
     {
-      "id": 4,
-      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?"
+      "id": "4",
+      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?",
+      "categoryId": "1"
     },
     {
-      "id": 5,
-      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates."
+      "id": "5",
+      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates.",
+      "categoryId": "1"
     },
     {
-      "id": 6,
-      "questionLabel": "What is event binding in Angular, and how is it implemented?"
+      "id": "6",
+      "questionLabel": "What is event binding in Angular, and how is it implemented?",
+      "categoryId": "1"
     },
     {
-      "id": 7,
-      "questionLabel": "What is Angular CLI, and how do you use it to generate components?"
+      "id": "7",
+      "questionLabel": "What is Angular CLI, and how do you use it to generate components?",
+      "categoryId": "1"
     },
     {
-      "id": 8,
-      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?"
+      "id": "8",
+      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?",
+      "categoryId": "1"
     },
     {
-      "id": 9,
-      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application."
+      "id": "9",
+      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application.",
+      "categoryId": "1"
     },
     {
-      "id": 10,
-      "questionLabel": "What is dependency injection in Angular, and why is it important?"
+      "id": "10",
+      "questionLabel": "What is dependency injection in Angular, and why is it important?",
+      "categoryId": "1"
     },
     {
-      "id": 11,
-      "questionLabel": "How do you communicate between parent and child components in Angular?"
+      "id": "11",
+      "questionLabel": "How do you communicate between parent and child components in Angular?",
+      "categoryId": "1"
     },
     {
-      "id": 12,
-      "questionLabel": "What is a service in Angular, and when should you use it?"
+      "id": "12",
+      "questionLabel": "What is a service in Angular, and when should you use it?",
+      "categoryId": "1"
     },
     {
-      "id": 13,
-      "questionLabel": "What is the purpose of the ngFor directive in Angular?"
+      "id": "13",
+      "questionLabel": "What is the purpose of the ngFor directive in Angular?",
+      "categoryId": "1"
     },
     {
-      "id": 14,
-      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application."
+      "id": "14",
+      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application.",
+      "categoryId": "1"
     },
     {
-      "id": 15,
-      "questionLabel": "What is Angular CLI's ng serve command used for?"
+      "id": "15",
+      "questionLabel": "What is Angular CLI's ng serve command used for?",
+      "categoryId": "1"
     },
     {
-      "id": 16,
-      "questionLabel": "What is Angular's two-way data binding, and how does it work?"
+      "id": "16",
+      "questionLabel": "What is Angular's two-way data binding, and how does it work?",
+      "categoryId": "1"
     },
     {
-      "id": 17,
-      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?"
+      "id": "17",
+      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?",
+      "categoryId": "1"
     },
     {
-      "id": 18,
-      "questionLabel": "How can you handle HTTP requests in Angular?"
+      "id": "18",
+      "questionLabel": "How can you handle HTTP requests in Angular?",
+      "categoryId": "1"
     },
     {
-      "id": 19,
-      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?"
+      "id": "19",
+      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?",
+      "categoryId": "1"
     },
     {
-      "id": 20,
-      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial."
+      "id": "20",
+      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial.",
+      "categoryId": "1"
+    },
+    {
+      "id": "21",
+      "questionLabel": "What is a component in React?",
+      "categoryId": "2"
+    },
+    {
+      "id": "22",
+      "questionLabel": "Explain the purpose of the useState hook in React.",
+      "categoryId": "2"
+    },
+    {
+      "id": "23",
+      "questionLabel": "How do you create a new React application?",
+      "categoryId": "2"
+    },
+    {
+      "id": "24",
+      "questionLabel": "What is JSX in React, and how is it different from HTML?",
+      "categoryId": "2"
+    },
+    {
+      "id": "25",
+      "questionLabel": "Explain the difference between props and state in React.",
+      "categoryId": "2"
+    },
+    {
+      "id": "26",
+      "questionLabel": "What is the useEffect hook in React, and how is it used?",
+      "categoryId": "2"
+    },
+    {
+      "id": "27",
+      "questionLabel": "What is the React Router, and how do you configure routes in a React application?",
+      "categoryId": "2"
+    },
+    {
+      "id": "28",
+      "questionLabel": "What are React hooks, and how do they differ from class components?",
+      "categoryId": "2"
+    },
+    {
+      "id": "29",
+      "questionLabel": "Explain the concept of context in React and how it's used for state management.",
+      "categoryId": "2"
+    },
+    {
+      "id": "30",
+      "questionLabel": "What is Redux, and how does it help manage application state in React?",
+      "categoryId": "2"
+    },
+    {
+      "id": "31",
+      "questionLabel": "How do you communicate between parent and child components in React?",
+      "categoryId": "2"
+    },
+    {
+      "id": "32",
+      "questionLabel": "What is a higher-order component (HOC) in React, and how is it used?",
+      "categoryId": "2"
+    },
+    {
+      "id": "33",
+      "questionLabel": "What is a prop drilling in React, and how can you avoid it?",
+      "categoryId": "2"
+    },
+    {
+      "id": "34",
+      "questionLabel": "What is a functional component in React, and how does it differ from a class component?",
+      "categoryId": "2"
+    },
+    {
+      "id": "35",
+      "questionLabel": "What is the purpose of the key prop in React lists?",
+      "categoryId": "2"
+    },
+    {
+      "id": "36",
+      "questionLabel": "How can you handle forms in React?",
+      "categoryId": "2"
+    },
+    {
+      "id": "37",
+      "questionLabel": "What are React fragments, and why are they used?",
+      "categoryId": "2"
+    },
+    {
+      "id": "38",
+      "questionLabel": "What is the difference between controlled and uncontrolled components in React?",
+      "categoryId": "2"
+    },
+    {
+      "id": "39",
+      "questionLabel": "What is the purpose of the useRef hook in React?",
+      "categoryId": "2"
+    },
+    {
+      "id": "40",
+      "questionLabel": "Explain the concept of lazy loading in React and when it's beneficial.",
+      "categoryId": "2"
+    },
+    {
+      "id": "41",
+      "questionLabel": "What is a component in Vue?",
+      "categoryId": "3"
+    },
+    {
+      "id": "42",
+      "questionLabel": "Explain the purpose of the Vue CLI and how to create a new Vue application.",
+      "categoryId": "3"
+    },
+    {
+      "id": "43",
+      "questionLabel": "What is the Vue Router, and how do you configure routes in a Vue application?",
+      "categoryId": "3"
+    },
+    {
+      "id": "44",
+      "questionLabel": "What are Vue components, and how do you create and use them?",
+      "categoryId": "3"
+    },
+    {
+      "id": "45",
+      "questionLabel": "What is Vuex, and how does it help manage application state in Vue?",
+      "categoryId": "3"
+    },
+    {
+      "id": "46",
+      "questionLabel": "What is the Vue CLI's serve command used for?",
+      "categoryId": "3"
+    },
+    {
+      "id": "47",
+      "questionLabel": "What is the Vue CLI's build command used for?",
+      "categoryId": "3"
+    },
+    {
+      "id": "48",
+      "questionLabel": "What is the Vue CLI's create command used for?",
+      "categoryId": "3"
+    },
+    {
+      "id": "49",
+      "questionLabel": "What is the Vue CLI's inspect command used for?",
+      "categoryId": "3"
+    },
+    {
+      "id": "50",
+      "questionLabel": "What is the Vue CLI's ui command used for?",
+      "categoryId": "3"
+    },
+    {
+      "id": "51",
+      "questionLabel": "What is the Vue CLI's upgrade command used for?",
+      "categoryId": "3"
+    },
+    {
+      "id": "52",
+      "questionLabel": "What is the Vue CLI's serve command used for?",
+      "categoryId": "3"
+    },
+    {
+      "id": "53",
+      "questionLabel": "What is the Vue CLI's build command used for?",
+      "categoryId": "3"
+    },
+    {
+      "id": "54",
+      "questionLabel": "What is the Vue CLI's create command used for?",
+      "categoryId": "3"
+    },
+    {
+      "id": "55",
+      "questionLabel": "What is the Vue CLI's inspect command used for?",
+      "categoryId": "3"
+    },
+    {
+      "id": "56",
+      "questionLabel": "What is the Vue CLI's ui command used for?",
+      "categoryId": "3"
+    },
+    {
+      "id": "57",
+      "questionLabel": "What is the Vue CLI's upgrade command used for?",
+      "categoryId": "3"
+    },
+    {
+      "id": "58",
+      "questionLabel": "What is the Vue CLI's serve command used for?",
+      "categoryId": "3"
+    },
+    {
+      "id": "59",
+      "questionLabel": "What is the Vue CLI's build command used for?",
+      "categoryId": "3"
+    },
+    {
+      "id": "60",
+      "questionLabel": "What is the Vue CLI's create command used for?",
+      "categoryId": "3"
     }
   ],
   "answers": [
     {
       "questionId": 1,
       "answerLabel": "A reusable building block for the user interface",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "d783345a-3d19-45d5-a53d-0263b265f118"
     },
     {
       "questionId": 1,
       "answerLabel": "A style in Angular",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "30aa6277-2674-4d3c-9547-d9ef5d497a2d"
     },
     {
       "questionId": 1,
       "answerLabel": "A service for handling HTTP requests",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "3ecc9e48-5ef8-4095-91e5-6a7cf957d9e7"
     },
     {
       "questionId": 1,
       "answerLabel": "A routing configuration",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "e3c8d7cc-117d-42ad-b31a-469fe9408761"
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is used to declare and configure modules in Angular applications.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "ee52a30e-cf34-4a19-b89b-17eb05e34be9"
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is a component in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "d03901ef-b74c-42b3-b423-f9ff9cb6d08d"
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is used for data binding in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "a8f2636d-2ede-4f6c-bc9b-6f63623a6599"
     },
     {
       "questionId": 2,
       "answerLabel": "NgModule is a directive in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "ebce45aa-2566-4403-a8e4-2f8e42c25efd"
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application using the Angular CLI by running 'ng new app-name'.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "93ba1729-9812-45df-88e8-652728567df8"
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application by writing HTML and CSS files.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "70217be9-6198-4944-a611-87ca9e87a0e3"
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application using pure JavaScript.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "2b173705-6dc7-482f-81d5-df66ee4d923e"
     },
     {
       "questionId": 3,
       "answerLabel": "You can create a new Angular application using Python.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "fc0341db-e25b-40fc-9326-dc6fe3392137"
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is a mechanism for synchronizing data between the component and the view.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "04fad590-9b21-45a0-b307-9ae8a659db81"
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is used for creating components.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "bd1bc934-9a4f-4d4d-b898-8f8fd34e001c"
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is a routing feature.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "caf2a88f-2fcb-40e1-a963-af53ab7a4eb5"
     },
     {
       "questionId": 4,
       "answerLabel": "Data binding in Angular is only available for services.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "3500c4fe-c402-440f-aa45-65c5b4f17575"
     },
     {
       "questionId": 5,
       "answerLabel": "{{}} (interpolation) is used for displaying dynamic data in the template.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "b0309881-c67c-4612-a36a-11d7334e0ef1"
     },
     {
       "questionId": 5,
       "answerLabel": "[property] (property binding) is used for displaying dynamic data in the template.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "92c617e8-0b98-43c4-97f0-254662307af5"
     },
     {
       "questionId": 5,
       "answerLabel": "{{}} (interpolation) is used for creating CSS styles.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "a47387ef-6c6e-4b5e-ad22-e5084944d357"
     },
     {
       "questionId": 5,
       "answerLabel": "[property] (property binding) is used for creating services.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "af634e48-e391-4764-bcd4-0b99bc6581ce"
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used to capture and respond to user interactions like clicks and keystrokes.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "532c6c1a-e743-4629-9a38-68e84bafbf96"
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used for defining component styles.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "1cd2abbd-2b2e-4ffb-9885-fef7b8bf197a"
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used for defining routes.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "ad0af1b0-faf5-4d00-b8cd-12ffdc63f90c"
     },
     {
       "questionId": 6,
       "answerLabel": "Event binding in Angular is used for dependency injection.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "3121ffc2-7a77-4079-a44e-68577e75b212"
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI (Command Line Interface) is a command-line tool for creating, building, and deploying Angular applications.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "69fd29a4-8ae4-410f-9859-e0da526a6898"
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI is a component in Angular applications.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "c2a6a6d0-e0c1-4753-8293-3afa3b449ca3"
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI is a directive in Angular applications.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "9800a6e7-efbb-4ca1-a7f1-df2ad3a38280"
     },
     {
       "questionId": 7,
       "answerLabel": "Angular CLI is a service for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "64cebcb6-476a-4bd0-8b5c-c5d106b8113c"
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a marker on a DOM element that tells Angular to do something with that element.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "f40f75f5-32a0-4d45-a80c-1324245bab7f"
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a component.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "e3463a26-43dc-4b80-87d9-817f7417a77d"
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a service.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "6a311cc0-e7d8-4d75-98c4-2278e42eba65"
     },
     {
       "questionId": 8,
       "answerLabel": "A directive in Angular is a module.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "042fd014-dbb0-4631-8b85-7e887377e53d"
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is a library for navigating between views and components.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "86974231-e27f-4fdd-a654-e8a043fe27d1"
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is used for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "96f65059-9aff-489d-9170-c84678439d77"
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is used for data binding in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "d021b74f-d857-4fd0-a343-fc61fbccd105"
     },
     {
       "questionId": 9,
       "answerLabel": "The Angular router is used for event binding in Angular.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "55fb4d78-de76-4951-9123-c1846e7dee11"
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is a design pattern used to provide instances of classes with their dependencies.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "409f80f3-2084-46a8-9f0d-34be9b1305b3"
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is a way to inject styles into components.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "809fc54e-4d29-41a5-9063-dcace62703b6"
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is a way to create routes in an application.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "f808a784-73a1-49c3-a21d-c90215a83d04"
     },
     {
       "questionId": 10,
       "answerLabel": "Dependency injection in Angular is used for data binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "5aa20e46-2a3d-4ae4-9518-e900fd854fdb"
     },
     {
       "questionId": 11,
       "answerLabel": "Communication between parent and child components in Angular can be achieved through input properties and output events.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "1e4ddf56-d731-4235-83a7-c241e723245c"
     },
     {
       "questionId": 11,
       "answerLabel": "Communication between parent and child components in Angular is not possible.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "94c1d50b-4320-45aa-b2d5-f0db93cd0023"
     },
     {
       "questionId": 11,
       "answerLabel": "Communication between parent and child components in Angular can only be done using services.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "244f2369-4b8b-40a6-9662-21689ca40185"
     },
     {
       "questionId": 11,
       "answerLabel": "Communication between parent and child components in Angular can only be done using event binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "30f319ec-752c-475f-86aa-eae07b05288f"
     },
     {
       "questionId": 12,
       "answerLabel": "A service in Angular is a class that provides specific functionality and can be injected into components and other services.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "5f94b490-638f-44c7-acff-ecb7d31c46cb"
     },
     {
       "questionId": 12,
       "answerLabel": "A service in Angular is a type of component.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "749a9c3a-973f-4b4f-972c-f3b9e6bf26a7"
     },
     {
       "questionId": 12,
       "answerLabel": "A service in Angular is a type of directive.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "5b3fcd96-5c94-43df-acbb-e2d3e2361e61"
     },
     {
       "questionId": 12,
       "answerLabel": "A service in Angular is a type of module.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "5e95f1dd-5094-429c-9728-3a6e1a5fd05d"
     },
     {
       "questionId": 13,
       "answerLabel": "The ngFor directive in Angular is used for iterating over a list of items and rendering them in the template.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "6975cae4-6554-46cc-93f7-b2aa2e213f5d"
     },
     {
       "questionId": 13,
       "answerLabel": "The ngFor directive in Angular is used for defining routes.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "dfaa3d22-55ad-4b77-85f3-bf110b4790a1"
     },
     {
       "questionId": 13,
       "answerLabel": "The ngFor directive in Angular is used for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "f90951e5-bf9e-4363-a851-04f17e067ee9"
     },
     {
       "questionId": 13,
       "answerLabel": "The ngFor directive in Angular is used for event binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "95c191ef-3f19-4f87-996f-c624a1312340"
     },
     {
       "questionId": 14,
       "answerLabel": "Modules in Angular are used to organize the application into cohesive blocks of functionality.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "c5c9b5a8-163b-41f8-a48e-b61c71f68a2b"
     },
     {
       "questionId": 14,
       "answerLabel": "Modules in Angular are used for data binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "864c255d-9189-46ae-901c-876b3ca771bd"
     },
     {
       "questionId": 14,
       "answerLabel": "Modules in Angular are used for routing configuration.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "355993f1-aad2-4547-9881-cdf2b50c3a66"
     },
     {
       "questionId": 14,
       "answerLabel": "Modules in Angular are used for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "06163304-4572-4597-aaba-8f0347ba5ead"
     },
     {
       "questionId": 15,
       "answerLabel": "Angular CLI's 'ng serve' command is used to compile and serve an Angular application locally for development purposes.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "4e94c1db-c5da-4ede-af15-3eed93aecd0a"
     },
     {
       "questionId": 15,
       "answerLabel": "Angular CLI's 'ng serve' command is used to deploy an Angular application to a production server.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "40cf3b9f-351b-4756-b50d-88a437dd1d21"
     },
     {
       "questionId": 15,
       "answerLabel": "Angular CLI's 'ng serve' command is used for data binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "70ab04f6-f7f7-45fe-ad9a-64f4241bb812"
     },
     {
       "questionId": 15,
       "answerLabel": "Angular CLI's 'ng serve' command is used for event binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "7df71630-1786-410b-933e-9e8dbdfc6778"
     },
     {
       "questionId": 16,
       "answerLabel": "Angular's two-way data binding combines property binding and event binding to automatically keep the view and the component data in sync.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "6e8021a3-7f50-4b6b-88e6-dfec48da635b"
     },
     {
       "questionId": 16,
       "answerLabel": "Angular's two-way data binding is used for routing configuration.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "dfd5ecf5-3a04-4e0a-87ea-d11011368732"
     },
     {
       "questionId": 16,
       "answerLabel": "Angular's two-way data binding is used for dependency injection.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "08df2fa2-9d8b-4a3d-b988-2824ebdf9ec3"
     },
     {
       "questionId": 16,
       "answerLabel": "Angular's two-way data binding is used for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "92a95fd6-a5c8-4f22-ac09-3d641b3a51b1"
     },
     {
       "questionId": 17,
       "answerLabel": "Angular's trackBy function is used to improve the performance of ngFor by identifying unique items in the iteration.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "48a92407-7403-46cc-9807-98d5614e679c"
     },
     {
       "questionId": 17,
       "answerLabel": "Angular's trackBy function is used for defining routes.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "8a772479-8fe4-40dc-a2de-eb839dd2a771"
     },
     {
       "questionId": 17,
       "answerLabel": "Angular's trackBy function is used for event binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "c2ff1765-016d-4cdc-8b0e-b4047548e5fb"
     },
     {
       "questionId": 17,
       "answerLabel": "Angular's trackBy function is used for dependency injection.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "28cb9636-c16f-485c-8d3e-3ad2540a3bdf"
     },
     {
       "questionId": 18,
       "answerLabel": "HTTP requests in Angular can be handled using the HttpClient module to send requests and receive responses from a server.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "a7980859-0548-40b9-b527-be71a061e15a"
     },
     {
       "questionId": 18,
       "answerLabel": "HTTP requests in Angular can be handled using the ngFor directive.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "0a589788-6645-40b1-b49a-efe9275a8db0"
     },
     {
       "questionId": 18,
       "answerLabel": "HTTP requests in Angular can be handled using dependency injection.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "68df8bbb-7e60-4c5b-8659-dbf01140e286"
     },
     {
       "questionId": 18,
       "answerLabel": "HTTP requests in Angular can be handled using the trackBy function.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "c5c8771e-e6b3-4d9a-9bb1-8494eacd7d22"
     },
     {
       "questionId": 19,
       "answerLabel": "Angular pipes are used for transforming and formatting data in templates.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "2469fa38-7872-4bf6-b7e2-d489b1999705"
     },
     {
       "questionId": 19,
       "answerLabel": "Angular pipes are used for defining routes.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "22ebfe6d-0225-4bb5-a8bc-ee942f14b040"
     },
     {
       "questionId": 19,
       "answerLabel": "Angular pipes are used for event binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "402bcba2-1a05-42f9-83b3-2255e9b05764"
     },
     {
       "questionId": 19,
       "answerLabel": "Angular pipes are used for dependency injection.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "7de96da2-bd1d-4c3c-954d-da61caf9668f"
     },
     {
       "questionId": 20,
       "answerLabel": "Lazy loading in Angular is a technique for loading modules only when they are needed, improving application performance.",
-      "isCorrect": true
+      "isCorrect": true,
+      "id": "8677262a-dc9c-48af-86bb-28158407c344"
     },
     {
       "questionId": 20,
       "answerLabel": "Lazy loading in Angular is a technique for handling HTTP requests.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "79216ff5-e80f-4cac-a04a-4c403f1cd748"
     },
     {
       "questionId": 20,
       "answerLabel": "Lazy loading in Angular is a technique for event binding.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "57cb25fe-d044-4297-bccd-3e1b6c62331a"
     },
     {
       "questionId": 20,
       "answerLabel": "Lazy loading in Angular is a technique for defining routes.",
-      "isCorrect": false
+      "isCorrect": false,
+      "id": "9ba9b796-ab87-4dcc-8676-11e4da4240a9"
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "A component in React is a reusable building block for the user interface.",
+      "isCorrect": true,
+      "id": "3dd6a7b7-091f-4453-b451-a20da80ca5dd"
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "A component in React is a style in React.",
+      "isCorrect": false,
+      "id": "549462e6-686c-4f12-bcbd-d66d4004b7c7"
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "A component in React is a service for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "b66b54af-c03a-43f6-ac05-e4309fecd0dd"
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "A component in React is a routing configuration.",
+      "isCorrect": false,
+      "id": "60d0f29a-d835-4f2c-be4b-9400f4ccc65e"
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "The useState hook in React is used to add state to functional components.",
+      "isCorrect": true,
+      "id": "e226ea90-9112-4a9c-ab1c-6d79548add46"
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "The useState hook in React is a component in React.",
+      "isCorrect": false,
+      "id": "5945b01e-fb48-4647-9020-c414db956ec0"
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "The useState hook in React is used for data binding in React.",
+      "isCorrect": false,
+      "id": "327f3373-21ee-4b14-be4c-fffb5407c307"
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "The useState hook in React is a directive in React.",
+      "isCorrect": false,
+      "id": "5de0614e-7617-4eb8-b13e-89a541bc4776"
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "You can create a new React application using the create-react-app tool by running 'npx create-react-app app-name'.",
+      "isCorrect": true,
+      "id": "ac1ad00c-b9a8-4671-9d40-25f4f5d00e11"
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "You can create a new React application by writing HTML and CSS files.",
+      "isCorrect": false,
+      "id": "f455577e-60b0-46d9-aa66-db51666f4dce"
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "You can create a new React application using pure JavaScript.",
+      "isCorrect": false,
+      "id": "941cdf3c-353e-4090-9989-ff801cfb8dd6"
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "You can create a new React application using Python.",
+      "isCorrect": false,
+      "id": "1619a232-a3ee-45b9-a526-3e71402cfd1d"
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "JSX in React is a syntax extension that allows you to write HTML-like code in JavaScript.",
+      "isCorrect": true,
+      "id": "82bf13f9-3c36-463e-b5d4-9e10fc41fa9e"
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "JSX in React is used for creating components.",
+      "isCorrect": false,
+      "id": "6c5e1e4d-4882-46f6-82df-3cc520bc86c6"
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "JSX in React is a routing feature.",
+      "isCorrect": false,
+      "id": "bbe11187-df92-4f1a-b1eb-75c61fc676fe"
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "JSX in React is only available for services.",
+      "isCorrect": false,
+      "id": "971e0887-5c65-4c6b-af20-54214e895aaf"
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "Props in React are used to pass data from parent to child components.",
+      "isCorrect": true,
+      "id": "ab96c7ea-0489-4550-acd2-d9c4da58dda2"
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "Props in React are used to pass data from child to parent components.",
+      "isCorrect": false,
+      "id": "db33deb8-3d62-41b1-b820-8288e97305be"
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "Props in React are used for creating CSS styles.",
+      "isCorrect": false,
+      "id": "f4fc7e03-5a4e-4070-80d2-7cf436254bc3"
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "Props in React are used for creating services.",
+      "isCorrect": false,
+      "id": "426f3e04-8f1a-45ba-9cd4-4732843c8d9d"
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "The useEffect hook in React is used to perform side effects in functional components.",
+      "isCorrect": true,
+      "id": "ccf5022e-6c25-40d3-aa1a-e9c34a4b6a17"
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "The useEffect hook in React is used for defining component styles.",
+      "isCorrect": false,
+      "id": "ed5e8c86-f7e1-4732-bad2-37a868fbc31a"
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "The useEffect hook in React is used for defining routes.",
+      "isCorrect": false,
+      "id": "3fbe11ce-9577-4912-ba59-158d7c1a55d2"
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "The useEffect hook in React is used for dependency injection.",
+      "isCorrect": false,
+      "id": "d41d3214-0f15-49ff-8582-a40d65ae7b22"
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "The React Router is a library for adding routing to a React application.",
+      "isCorrect": true,
+      "id": "53ac6879-5148-4b25-8a16-832a92da3e34"
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "The React Router is a component in React applications.",
+      "isCorrect": false,
+      "id": "b39a6c04-0a19-4896-9be0-e24c966768bb"
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "The React Router is a directive in React applications.",
+      "isCorrect": false,
+      "id": "d31ee00e-faeb-431d-94f3-9384331342a6"
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "The React Router is a service for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "1b9a14e2-ed4c-4b14-ae05-6d6246041604"
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "React hooks are functions that let you use state and other React features in functional components.",
+      "isCorrect": true,
+      "id": "712d1ee0-f545-4bc0-861a-58ec27b23f7b"
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "React hooks are components in React applications.",
+      "isCorrect": false,
+      "id": "b479b620-9660-4d88-841b-efdb5831e2b2"
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "React hooks are directives in React applications.",
+      "isCorrect": false,
+      "id": "5478da93-38ac-4f21-8e74-968f8f1ad624"
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "React hooks are services for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "65ae67e6-188b-4df8-a30e-dcea7bffc999"
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "Context in React is a feature that allows you to pass data through the component tree without having to pass props down manually at every level.",
+      "isCorrect": true,
+      "id": "253afa7e-b5ea-4d30-9a94-fc7972a52c2c"
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "Context in React is used for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "b26221a1-dc0f-49c6-99f3-113bc271ef7b"
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "Context in React is used for data binding in React.",
+      "isCorrect": false,
+      "id": "d7e0f139-7302-4f09-aa3f-3721f6370412"
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "Context in React is used for event binding in React.",
+      "isCorrect": false,
+      "id": "97977198-d7ec-4a89-aff7-9d83211b0b7a"
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "Redux is a state management library for React applications that helps manage application state in a predictable way.",
+      "isCorrect": true,
+      "id": "29c0fb89-bd4f-45e8-b271-656c9d620941"
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "Redux is a way to inject styles into components.",
+      "isCorrect": false,
+      "id": "34c29395-da28-436e-b4a8-da9575d0b67f"
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "Redux is a way to create routes in an application.",
+      "isCorrect": false,
+      "id": "424aea28-2ddd-4a51-94fa-7730ab234ef7"
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "Redux is used for data binding.",
+      "isCorrect": false,
+      "id": "a4b8bc9c-847c-4524-9a33-04d8bdac131b"
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Communication between parent and child components in React can be achieved through props and callbacks.",
+      "isCorrect": true,
+      "id": "b4fc465a-ad1d-4155-be59-17dd3a368d06"
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Communication between parent and child components in React is not possible.",
+      "isCorrect": false,
+      "id": "d68a527a-b5c2-4086-96c9-381ddb9a8df2"
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Communication between parent and child components in React can only be done using context.",
+      "isCorrect": false,
+      "id": "3adb974a-42e6-4c06-af45-b8c5db534b40"
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Communication between parent and child components in React can only be done using event binding.",
+      "isCorrect": false,
+      "id": "48ebda60-bba5-43b6-a8b8-a3f330ffae21"
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "A higher-order component (HOC) in React is a function that takes a component and returns a new component with additional functionality.",
+      "isCorrect": true,
+      "id": "bebc2cd8-e273-4c27-b69b-90bcdd6e5661"
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "A higher-order component (HOC) in React is a type of component.",
+      "isCorrect": false,
+      "id": "e1fe4f2e-57c8-4aa1-9c44-9322159277fd"
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "A higher-order component (HOC) in React is a type of directive.",
+      "isCorrect": false,
+      "id": "49397f09-07b7-4c53-a00b-6f7aa58448d6"
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "A higher-order component (HOC) in React is a type of module.",
+      "isCorrect": false,
+      "id": "6152b822-49d6-4b0d-97da-4453e4f87488"
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "Prop drilling in React is the process of passing props from a parent component to deeply nested child components.",
+      "isCorrect": true,
+      "id": "9aa167bd-845d-4619-8d0b-afeb1ce56568"
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "Prop drilling in React is used for defining routes.",
+      "isCorrect": false,
+      "id": "8611de69-f1c0-4d24-a261-df25b9c99896"
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "Prop drilling in React is used for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "a7f181cc-a1b9-4638-aa5d-9664ad101cce"
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "Prop drilling in React is used for event binding.",
+      "isCorrect": false,
+      "id": "a8e6992d-9d90-4264-9873-7186d6b611a5"
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "A functional component in React is a simpler way to write components that do not have state or lifecycle methods.",
+      "isCorrect": true,
+      "id": "1a463d98-faad-46ae-97c8-a432d78b76ee"
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "A functional component in React is used for data binding.",
+      "isCorrect": false,
+      "id": "157bce17-be7b-46bf-a9ac-409e339e8dfa"
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "A functional component in React is used for routing configuration.",
+      "isCorrect": false,
+      "id": "b5b71a49-52f0-4f76-9a05-b37c184e8c76"
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "A functional component in React is used for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "58908223-1ad0-4bd4-90b7-e59d38ddcc37"
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "The key prop in React lists is used to uniquely identify elements and improve performance when rendering lists.",
+      "isCorrect": true,
+      "id": "e40c0b4d-230a-4dca-835e-c642aebff0e6"
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "The key prop in React lists is used to deploy an application to a production server.",
+      "isCorrect": false,
+      "id": "df4223a0-8835-4d28-8d5d-64c3c6faf1fb"
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "The key prop in React lists is used for data binding.",
+      "isCorrect": false,
+      "id": "eb035f66-6b57-4253-b980-059fefad8781"
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "The key prop in React lists is used for event binding.",
+      "isCorrect": false,
+      "id": "a219bfd6-eead-45d1-b7d8-8357cd5bfffe"
+    },
+    {
+      "questionId": 36,
+      "answerLabel": "Forms in React can be handled using controlled components, where form data is controlled by React state.",
+      "isCorrect": true,
+      "id": "01371184-9a5a-4e91-95c4-2eb1c821c7fb"
+    },
+    {
+      "questionId": 36,
+      "answerLabel": "Forms in React can be handled using uncontrolled components, where form data is controlled by the DOM.",
+      "isCorrect": false,
+      "id": "91d5132b-7fec-4183-b27d-b02966cd4c75"
+    },
+    {
+      "questionId": 36,
+      "answerLabel": "Forms in React can be handled using dependency injection.",
+      "isCorrect": false,
+      "id": "7050371d-9486-4d95-b856-fba6a6bf08ea"
+    },
+    {
+      "questionId": 36,
+      "answerLabel": "Forms in React can be handled using HTTP requests.",
+      "isCorrect": false,
+      "id": "bd327019-1b6e-43dc-b9da-1f1cc3e40cb7"
+    },
+    {
+      "questionId": 37,
+      "answerLabel": "React fragments are used to group multiple elements without adding extra nodes to the DOM.",
+      "isCorrect": true,
+      "id": "394eadf4-6338-43d6-8527-9bd6762b2770"
+    },
+    {
+      "questionId": 37,
+      "answerLabel": "React fragments are used for defining routes.",
+      "isCorrect": false,
+      "id": "a1be03c3-941c-47f3-8fba-7ae35242849a"
+    },
+    {
+      "questionId": 37,
+      "answerLabel": "React fragments are used for event binding.",
+      "isCorrect": false,
+      "id": "ad9453da-c451-4047-a32f-3c43115992e2"
+    },
+    {
+      "questionId": 37,
+      "answerLabel": "React fragments are used for dependency injection.",
+      "isCorrect": false,
+      "id": "23371bbe-ec53-45ae-9af7-9db2726a3f77"
+    },
+    {
+      "questionId": 38,
+      "answerLabel": "React portals provide a way to render children into a DOM node that exists outside the DOM hierarchy of the parent component.",
+      "isCorrect": true,
+      "id": "a221b7e4-9afe-459e-8bdb-6bd68b56e942"
+    },
+    {
+      "questionId": 38,
+      "answerLabel": "React portals are used for defining routes.",
+      "isCorrect": false,
+      "id": "1668be69-51ba-4c3a-89e8-dc76b8e32072"
+    },
+    {
+      "questionId": 38,
+      "answerLabel": "React portals are used for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "a8ef3c35-ebd4-45f9-8fe8-10eb8ebae8af"
+    },
+    {
+      "questionId": 38,
+      "answerLabel": "React portals are used for the trackBy function.",
+      "isCorrect": false,
+      "id": "d720284f-9357-4201-97d0-c860088a3312"
+    },
+    {
+      "questionId": 39,
+      "answerLabel": "React context provides a way to pass data through the component tree without having to pass props down manually at every level.",
+      "isCorrect": true,
+      "id": "dbed9a73-8a3c-46c4-83d8-4f71f5449866"
+    },
+    {
+      "questionId": 39,
+      "answerLabel": "React context is used for defining routes.",
+      "isCorrect": false,
+      "id": "c974d244-8cfa-4d23-b450-36fd3dbf32f5"
+    },
+    {
+      "questionId": 39,
+      "answerLabel": "React context is used for event binding.",
+      "isCorrect": false,
+      "id": "7aa775bb-58b7-49d5-9245-aef45a264e10"
+    },
+    {
+      "questionId": 39,
+      "answerLabel": "React context is used for dependency injection.",
+      "isCorrect": false,
+      "id": "dbf3558f-a779-4052-9043-3ecf49e90ede"
+    },
+    {
+      "questionId": 40,
+      "answerLabel": "Lazy loading in React is a technique for loading components only when they are needed, improving application performance.",
+      "isCorrect": true,
+      "id": "8e32b436-98e4-45b4-9c63-7c21e4f39fa1"
+    },
+    {
+      "questionId": 40,
+      "answerLabel": "Lazy loading in React is a technique for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "06f6ab1a-a79f-4bc0-8d61-351fff1ca7d1"
+    },
+    {
+      "questionId": 40,
+      "answerLabel": "Lazy loading in React is a technique for event binding.",
+      "isCorrect": false,
+      "id": "397f1109-2445-4be7-933c-d10dc5ce616b"
+    },
+    {
+      "questionId": 40,
+      "answerLabel": "Lazy loading in React is a technique for defining routes.",
+      "isCorrect": false,
+      "id": "45d3dd5b-be21-4720-9d6d-29d06733cf49"
+    },
+    {
+      "questionId": 41,
+      "answerLabel": "A component in Vue is a reusable building block for the user interface.",
+      "isCorrect": true,
+      "id": "ff50a693-682b-4244-b481-680ec48d9056"
+    },
+    {
+      "questionId": 41,
+      "answerLabel": "A component in Vue is a style in Vue.",
+      "isCorrect": false,
+      "id": "989ba303-66a5-424d-b6be-85687700a172"
+    },
+    {
+      "questionId": 41,
+      "answerLabel": "A component in Vue is a service for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "a12d309e-2787-4bb6-875a-67b812772910"
+    },
+    {
+      "questionId": 41,
+      "answerLabel": "A component in Vue is a routing configuration.",
+      "isCorrect": false,
+      "id": "2f21bed8-6a62-4a0e-8303-9b03312ec2cf"
+    },
+    {
+      "questionId": 42,
+      "answerLabel": "The Vue CLI's create command is used to create a new Vue project.",
+      "isCorrect": true,
+      "id": "65e0309f-99dd-409d-ad69-ab755801e294"
+    },
+    {
+      "questionId": 42,
+      "answerLabel": "The Vue CLI's create command is a component in Vue.",
+      "isCorrect": false,
+      "id": "d280ccdd-5c74-4f79-85c6-f176784eefc4"
+    },
+    {
+      "questionId": 42,
+      "answerLabel": "The Vue CLI's create command is used for data binding in Vue.",
+      "isCorrect": false,
+      "id": "67605f80-5d6e-4bc6-ab73-2882cb59e1ed"
+    },
+    {
+      "questionId": 42,
+      "answerLabel": "The Vue CLI's create command is a directive in Vue.",
+      "isCorrect": false,
+      "id": "b01a4826-ee0e-4174-ba8d-80e2fa083766"
+    },
+    {
+      "questionId": 43,
+      "answerLabel": "The Vue CLI's serve command is used to compile and serve a Vue application locally for development purposes.",
+      "isCorrect": true,
+      "id": "09dbcbcf-b420-4a38-8d9c-ce4a25f57425"
+    },
+    {
+      "questionId": 43,
+      "answerLabel": "The Vue CLI's serve command is used to deploy a Vue application to a production server.",
+      "isCorrect": false,
+      "id": "477c9f58-32c6-41f0-9507-7b894908f373"
+    },
+    {
+      "questionId": 43,
+      "answerLabel": "The Vue CLI's serve command is used for data binding.",
+      "isCorrect": false,
+      "id": "1dd831b9-d672-4034-bf21-c426552452d1"
+    },
+    {
+      "questionId": 43,
+      "answerLabel": "The Vue CLI's serve command is used for event binding.",
+      "isCorrect": false,
+      "id": "155c02d8-92a2-4348-bce7-c8ec609c2c0d"
+    },
+    {
+      "questionId": 44,
+      "answerLabel": "Vue components are reusable Vue instances that can be composed of other components.",
+      "isCorrect": true,
+      "id": "ca4d98e9-65ac-4eb2-a724-ac36c187b078"
+    },
+    {
+      "questionId": 44,
+      "answerLabel": "Vue components are used for creating components.",
+      "isCorrect": false,
+      "id": "72ecf4db-0533-4899-936e-5b428aa86b25"
+    },
+    {
+      "questionId": 44,
+      "answerLabel": "Vue components are a routing feature.",
+      "isCorrect": false,
+      "id": "981426ca-f262-46a2-accc-09b62da25985"
+    },
+    {
+      "questionId": 44,
+      "answerLabel": "Vue components are only available for services.",
+      "isCorrect": false,
+      "id": "72926691-dab5-45e4-aeeb-240354775451"
+    },
+    {
+      "questionId": 45,
+      "answerLabel": "The Vue router is a library for adding routing to a Vue application.",
+      "isCorrect": true,
+      "id": "13897e71-281f-4eef-b1e1-2ceee0e32fdb"
+    },
+    {
+      "questionId": 45,
+      "answerLabel": "The Vue router is used for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "27167b14-2091-441a-8bba-72d6f96062bf"
+    },
+    {
+      "questionId": 45,
+      "answerLabel": "The Vue router is used for data binding in Vue.",
+      "isCorrect": false,
+      "id": "a74d03bb-c878-4cea-9e7c-a4d83fa8e030"
+    },
+    {
+      "questionId": 45,
+      "answerLabel": "The Vue router is used for creating services.",
+      "isCorrect": false,
+      "id": "484e6a8a-17d1-448d-9fc9-d90fa95e66a8"
+    },
+    {
+      "questionId": 46,
+      "answerLabel": "Vue directives are special attributes with the v- prefix that allow you to apply reactive behavior to the DOM.",
+      "isCorrect": true,
+      "id": "173fc2e6-ae63-4898-8f61-69097387d260"
+    },
+    {
+      "questionId": 46,
+      "answerLabel": "Vue directives are used for defining component styles.",
+      "isCorrect": false,
+      "id": "ac3854c0-3b12-4ca1-871c-6a9d75fc8209"
+    },
+    {
+      "questionId": 46,
+      "answerLabel": "Vue directives are used for defining routes.",
+      "isCorrect": false,
+      "id": "0a7f3752-4fde-4d98-992f-4ef94e27f461"
+    },
+    {
+      "questionId": 46,
+      "answerLabel": "Vue directives are used for dependency injection.",
+      "isCorrect": false,
+      "id": "5731638d-6c39-4232-9723-99ed8cb22eff"
+    },
+    {
+      "questionId": 47,
+      "answerLabel": "Vue mixins are a flexible way to distribute reusable functionalities for Vue components.",
+      "isCorrect": true,
+      "id": "518eb83f-269e-423d-93d6-5302652f9b65"
+    },
+    {
+      "questionId": 47,
+      "answerLabel": "Vue mixins are used for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "13cd70c5-b488-472a-b91a-0fd02bc76bb0"
+    },
+    {
+      "questionId": 47,
+      "answerLabel": "Vue mixins are used for data binding in Vue.",
+      "isCorrect": false,
+      "id": "78505519-12f4-41fa-8300-72749bf8864f"
+    },
+    {
+      "questionId": 47,
+      "answerLabel": "Vue mixins are used for event binding in Vue.",
+      "isCorrect": false,
+      "id": "7da46650-fed4-4c21-a7d5-94391a218110"
+    },
+    {
+      "questionId": 48,
+      "answerLabel": "Vue filters are used to apply common text formatting.",
+      "isCorrect": true,
+      "id": "647b753e-e5d9-4680-86ef-fdce7b745b23"
+    },
+    {
+      "questionId": 48,
+      "answerLabel": "Vue filters are a way to inject styles into components.",
+      "isCorrect": false,
+      "id": "6b408246-bce1-4c70-bbc8-cd22fdb9aaf8"
+    },
+    {
+      "questionId": 48,
+      "answerLabel": "Vue filters are a way to create routes in an application.",
+      "isCorrect": false,
+      "id": "db2973cd-cf8a-4de9-aa7c-adbbd727d794"
+    },
+    {
+      "questionId": 48,
+      "answerLabel": "Vue filters are used for data binding.",
+      "isCorrect": false,
+      "id": "868252ff-f4d9-4a5b-b8cc-d13cab2c3eb3"
+    },
+    {
+      "questionId": 49,
+      "answerLabel": "Vue plugins are packages of reusable functionalities that can be added to a Vue application.",
+      "isCorrect": true,
+      "id": "4c153e9e-b26c-4c00-a29c-6cd804beb8ff"
+    },
+    {
+      "questionId": 49,
+      "answerLabel": "Vue plugins are used for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "92500718-c8ee-4a97-b32b-c3de8d70396d"
+    },
+    {
+      "questionId": 49,
+      "answerLabel": "Vue plugins are used for data binding in Vue.",
+      "isCorrect": false,
+      "id": "fd7b1b9e-c635-41c5-86fe-30daddf4e7ed"
+    },
+    {
+      "questionId": 49,
+      "answerLabel": "Vue plugins are used for event binding in Vue.",
+      "isCorrect": false,
+      "id": "2fb42ba3-6632-48f0-a9c6-23198c3cfd3f"
+    },
+    {
+      "questionId": 50,
+      "answerLabel": "Vue slots are placeholders that allow you to compose components with different content.",
+      "isCorrect": true,
+      "id": "62426ad9-a828-443c-b8f4-bf811deed12b"
+    },
+    {
+      "questionId": 50,
+      "answerLabel": "Vue slots are a type of component.",
+      "isCorrect": false,
+      "id": "6ab458c6-3835-466d-833e-43ffeb68688f"
+    },
+    {
+      "questionId": 50,
+      "answerLabel": "Vue slots are a type of directive.",
+      "isCorrect": false,
+      "id": "f11672dd-28aa-4416-bab8-9882910a6afe"
+    },
+    {
+      "questionId": 50,
+      "answerLabel": "Vue slots are a type of module.",
+      "isCorrect": false,
+      "id": "aa45ac3b-bbef-4792-b764-d152b86f98c7"
+    },
+    {
+      "questionId": 51,
+      "answerLabel": "Vue transitions are built-in components that allow you to animate elements when they are inserted, updated, or removed from the DOM.",
+      "isCorrect": true,
+      "id": "17ae5be2-c802-45c5-a4d4-d996b1134f9b"
+    },
+    {
+      "questionId": 51,
+      "answerLabel": "Vue transitions are used for defining routes.",
+      "isCorrect": false,
+      "id": "a1de18ed-530f-4746-b2b7-72eeb8385abc"
+    },
+    {
+      "questionId": 51,
+      "answerLabel": "Vue transitions are used for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "e6531292-7b8f-41f3-9a77-eb7f3d44cfd0"
+    },
+    {
+      "questionId": 51,
+      "answerLabel": "Vue transitions are used for event binding.",
+      "isCorrect": false,
+      "id": "9194004c-1744-4ace-8416-e359a3c50e62"
+    },
+    {
+      "questionId": 52,
+      "answerLabel": "Vue directives are special attributes with the v- prefix that allow you to apply reactive behavior to the DOM.",
+      "isCorrect": true,
+      "id": "a5733e8f-986f-4cc5-b092-fbfbb263fcf3"
+    },
+    {
+      "questionId": 52,
+      "answerLabel": "Vue directives are used for defining component styles.",
+      "isCorrect": false,
+      "id": "9d73f6fc-ab14-4fbf-a473-2022ffed73c6"
+    },
+    {
+      "questionId": 52,
+      "answerLabel": "Vue directives are used for defining routes.",
+      "isCorrect": false,
+      "id": "6190837d-f237-4b3c-8104-e9c7aa9e5478"
+    },
+    {
+      "questionId": 52,
+      "answerLabel": "Vue directives are used for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "7a01d399-06e9-45d0-bc5d-280d64c513a6"
+    },
+    {
+      "questionId": 53,
+      "answerLabel": "Vue mixins are a flexible way to distribute reusable functionalities for Vue components.",
+      "isCorrect": true,
+      "id": "a1a5032a-260a-4f87-bdcf-929844961572"
+    },
+    {
+      "questionId": 53,
+      "answerLabel": "Vue mixins are used for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "e30673b0-a947-45d0-8515-4a7f7bb7b031"
+    },
+    {
+      "questionId": 53,
+      "answerLabel": "Vue mixins are used for data binding in Vue.",
+      "isCorrect": false,
+      "id": "d7201402-0d7c-4856-b929-9cd999a8bfc7"
+    },
+    {
+      "questionId": 53,
+      "answerLabel": "Vue mixins are used for event binding in Vue.",
+      "isCorrect": false,
+      "id": "d213a0ef-7ff3-4758-aef2-3bb940328514"
+    },
+    {
+      "questionId": 54,
+      "answerLabel": "Vue filters are used to apply common text formatting.",
+      "isCorrect": true,
+      "id": "1cdf015b-20f2-4245-8c0b-20165fe14eb0"
+    },
+    {
+      "questionId": 54,
+      "answerLabel": "Vue filters are a way to inject styles into components.",
+      "isCorrect": false,
+      "id": "4a3f512f-0a0b-4b3e-94fb-2cfae891d96e"
+    },
+    {
+      "questionId": 54,
+      "answerLabel": "Vue filters are a way to create routes in an application.",
+      "isCorrect": false,
+      "id": "e1c07341-b0b9-4ddc-98b5-b74039dc6289"
+    },
+    {
+      "questionId": 54,
+      "answerLabel": "Vue filters are used for data binding.",
+      "isCorrect": false,
+      "id": "e2fbf6ad-c5c1-4f12-b433-897c6fb5e41e"
+    },
+    {
+      "questionId": 55,
+      "answerLabel": "Vue plugins are packages of reusable functionalities that can be added to a Vue application.",
+      "isCorrect": true,
+      "id": "9c121923-42b5-4ebc-835d-c731d9b7159b"
+    },
+    {
+      "questionId": 55,
+      "answerLabel": "Vue plugins are used for defining routes.",
+      "isCorrect": false,
+      "id": "9d952901-abcc-4d7d-b84f-e94e9714fc90"
+    },
+    {
+      "questionId": 55,
+      "answerLabel": "Vue plugins are used for event binding.",
+      "isCorrect": false,
+      "id": "2a2d8165-e516-4ace-844d-e51ccff276b2"
+    },
+    {
+      "questionId": 55,
+      "answerLabel": "Vue plugins are used for dependency injection.",
+      "isCorrect": false,
+      "id": "300507b0-4c13-4ad0-b9b0-12fddf110d18"
+    },
+    {
+      "questionId": 56,
+      "answerLabel": "Vue slots are placeholders that allow you to compose components with different content.",
+      "isCorrect": true,
+      "id": "52047f36-da36-45b8-9512-b86d722122f5"
+    },
+    {
+      "questionId": 56,
+      "answerLabel": "Vue slots are a type of component.",
+      "isCorrect": false,
+      "id": "9febfc78-67b1-464e-9fd2-0adcb9fec807"
+    },
+    {
+      "questionId": 56,
+      "answerLabel": "Vue slots are a type of directive.",
+      "isCorrect": false,
+      "id": "a018e34d-10bd-4ca3-862a-89a1062399e5"
+    },
+    {
+      "questionId": 56,
+      "answerLabel": "Vue slots are a type of module.",
+      "isCorrect": false,
+      "id": "71008433-d753-4bd9-a77f-b9913e12a449"
+    },
+    {
+      "questionId": 57,
+      "answerLabel": "Vue transitions are built-in components that allow you to animate elements when they are inserted, updated, or removed from the DOM.",
+      "isCorrect": true,
+      "id": "cae2bea5-c043-492e-ae20-8b4501ae9f02"
+    },
+    {
+      "questionId": 57,
+      "answerLabel": "Vue transitions are used for defining routes.",
+      "isCorrect": false,
+      "id": "1ecdae61-575d-4d50-9e59-cb6df1c369e8"
+    },
+    {
+      "questionId": 57,
+      "answerLabel": "Vue transitions are used for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "dcfab4a0-15d4-4c6a-9cc2-5bd0acd3980c"
+    },
+    {
+      "questionId": 57,
+      "answerLabel": "Vue transitions are used for dependency injection.",
+      "isCorrect": false,
+      "id": "6e327fd9-869d-4c85-adf5-27ac2c9d34e8"
+    },
+    {
+      "questionId": 58,
+      "answerLabel": "Vue directives are special attributes with the v- prefix that allow you to apply reactive behavior to the DOM.",
+      "isCorrect": true,
+      "id": "b5ec9bbd-3249-4aac-ba86-e4e95b20f83b"
+    },
+    {
+      "questionId": 58,
+      "answerLabel": "Vue directives are used for defining component styles.",
+      "isCorrect": false,
+      "id": "45cc74c6-39f5-40a0-971a-adf5a4672a08"
+    },
+    {
+      "questionId": 58,
+      "answerLabel": "Vue directives are used for defining routes.",
+      "isCorrect": false,
+      "id": "aa450f0d-6fdb-408f-90b9-af1def08707d"
+    },
+    {
+      "questionId": 58,
+      "answerLabel": "Vue directives are used for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "7ef20041-3aa3-4824-bef7-d2e47061deb5"
+    },
+    {
+      "questionId": 59,
+      "answerLabel": "Vue mixins are a flexible way to distribute reusable functionalities for Vue components.",
+      "isCorrect": true,
+      "id": "086465be-40e6-422f-8409-ee983c952b8b"
+    },
+    {
+      "questionId": 59,
+      "answerLabel": "Vue mixins are used for handling HTTP requests.",
+      "isCorrect": false,
+      "id": "dec12163-6cd3-4186-8451-ea5f28b44cbd"
+    },
+    {
+      "questionId": 59,
+      "answerLabel": "Vue mixins are used for data binding in Vue.",
+      "isCorrect": false,
+      "id": "35729ae8-b695-466e-bf70-3a5c432928ab"
+    },
+    {
+      "questionId": 59,
+      "answerLabel": "Vue mixins are used for event binding in Vue.",
+      "isCorrect": false,
+      "id": "5a3aa119-bd73-401e-b8be-cc1bf518c40f"
+    },
+    {
+      "questionId": 60,
+      "answerLabel": "Vue filters are used to apply common text formatting.",
+      "isCorrect": true,
+      "id": "0db43194-48b5-4b02-a182-e10f08b22ca2"
+    },
+    {
+      "questionId": 60,
+      "answerLabel": "Vue filters are a way to inject styles into components.",
+      "isCorrect": false,
+      "id": "3bb3b1ec-986d-4087-a2c7-038589ff3366"
+    },
+    {
+      "questionId": 60,
+      "answerLabel": "Vue filters are a way to create routes in an application.",
+      "isCorrect": false,
+      "id": "88089bec-83cb-44fb-a01e-a2f8669e6b94"
+    },
+    {
+      "questionId": 60,
+      "answerLabel": "Vue filters are used for data binding.",
+      "isCorrect": false,
+      "id": "d42207fa-1abc-4000-9d78-9d92099f260c"
     }
   ],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "admin",
       "password": "admin"
     },
     {
-      "id": 2,
+      "id": "2",
       "username": "user",
       "password": "user"
     },
     {
       "username": "test",
       "password": "test",
-      "id": 3
+      "id": "3"
+    },
+    {
+      "id": "3b11",
+      "username": "romain",
+      "password": "password"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "label": "Angular"
+    },
+    {
+      "id": "2",
+      "label": "React"
+    },
+    {
+      "id": "3",
+      "label": "Vue"
     }
   ]
 }

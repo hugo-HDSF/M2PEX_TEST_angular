@@ -1,0 +1,20 @@
+<section class="category">
+  <h2 class="category_title">Selectionner une catégorie</h2>
+  <p class="home_presentation">Salut {{ playerName }}</p>
+  <input
+    class="category_input"
+    type="text"
+    [(ngModel)]="searchedCategory"
+    placeholder="Rechercher une catégorie"
+  />
+  <button (click)="searchCategories()">search</button>
+  <button (click)="resetSearch()">reset</button>
+
+  <ul class="category_container">
+    <li *ngFor="let category of filteredCategories; let i = index">
+      <button (click)="navigateToQuiz(category?.id)">
+        {{ category?.label }}
+      </button>
+    </li>
+  </ul>
+</section>
